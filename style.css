@@ -5,6 +5,23 @@
     font-style: normal;
 }
 
-.mt-100 {
-    margin-top: 200px;
+.footer {
+    background: #151515;
+}
+
+.footer main {
+    padding: 70px;
+}
+
+.hide {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+@media screen and (max-width:850px) {
+    .hide {
+        display: none !important;
+    }
 }
